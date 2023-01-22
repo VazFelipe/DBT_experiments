@@ -19,3 +19,9 @@ models:
             tests:
                 - unique
                 - not_null
+
+    - name: dim_first_model
+      description: "My first dbt model"
+      columns:
+          - name: number
+            description: "The number from 0 to 9"
